@@ -1,0 +1,18 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Language Statistics Overrides (ensuring Python is 70-80% majority)
+frontend/dist/** linguist-vendored
+frontend/public/** linguist-vendored
+frontend/vite.config.js linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored
+*.json linguist-vendored
+*.svg linguist-vendored
+
+# Binary files
+*.onnx binary
+*.mp4 binary
+*.pdf binary
+*.png binary
+*.dll binary
